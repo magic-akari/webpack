@@ -1576,11 +1576,11 @@ asn1@~0.2.3:
     safer-buffer "~2.1.0"
 
 assemblyscript@^0.27.22:
-  version "0.27.22"
-  resolved "https://registry.yarnpkg.com/assemblyscript/-/assemblyscript-0.27.22.tgz#5825828602119c90173e974a4b55ac88769598d3"
-  integrity sha512-6ClobsR4Hxn6K0daYp/+n9qWTqVbpdVeSGSVDqRvUEz66vvFb8atS6nLm+fnQ54JXuXmzLQy0uWYYgB8G59btQ==
+  version "0.27.27"
+  resolved "https://registry.yarnpkg.com/assemblyscript/-/assemblyscript-0.27.27.tgz#a3ebab9ab1f7e5ed3e88d7e81d04be57874f15bf"
+  integrity sha512-z4ijXsjjk3uespEeCWpO1K2GQySc6bn+LL5dL0tsC2VXNYKFnKDmAh3wefcKazxXHFVhYlxqNfyv96ajaQyINQ==
   dependencies:
-    binaryen "116.0.0-nightly.20231102"
+    binaryen "116.0.0-nightly.20240114"
     long "^5.2.1"
 
 assert-never@^1.2.1:
@@ -1730,10 +1730,10 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
-binaryen@116.0.0-nightly.20231102:
-  version "116.0.0-nightly.20231102"
-  resolved "https://registry.yarnpkg.com/binaryen/-/binaryen-116.0.0-nightly.20231102.tgz#0bbf0181ef8a4d963859b1bf68c9bd2d24911dc7"
-  integrity sha512-aPU9tlKdw/gcXx6u4PxtDgOtGjg/ZKnYdk23ctYb70GxZgPhWnGWmnBt01aV5dt5yFFo2V4rbB7SzpSFhViFQA==
+binaryen@116.0.0-nightly.20240114:
+  version "116.0.0-nightly.20240114"
+  resolved "https://registry.yarnpkg.com/binaryen/-/binaryen-116.0.0-nightly.20240114.tgz#ad8bfbde77d4cb4715b93997114eefc30f45155b"
+  integrity sha512-0GZrojJnuhoe+hiwji7QFaL3tBlJoA+KFUN7ouYSDGZLSo9CKM8swQX8n/UcbR0d1VuZKU+nhogNzv423JEu5A==
 
 bplist-parser@^0.2.0:
   version "0.2.0"
@@ -5131,7 +5131,7 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha512-ESF23V4SKG6lVSGZgYNpbsiaAkdab6ZgOxe52p7+Kid3W3u3bxR4Vfd/o21dmN7jSt0IwgZ4v5MUd26FEtXE9w==
 
-"prettier-2@npm:prettier@^2", prettier@^2.0.5:
+"prettier-2@npm:prettier@^2":
   version "2.8.8"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
   integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
@@ -5142,6 +5142,11 @@ prettier-linter-helpers@^1.0.0:
   integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
   dependencies:
     fast-diff "^1.1.2"
+
+prettier@^2.0.5:
+  version "2.8.8"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
+  integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
 prettier@^3.2.1:
   version "3.2.3"
